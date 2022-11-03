@@ -1,0 +1,127 @@
+13# Write your code here :-)
+i=0
+j=0
+for i in range(0,6):
+    for j in range(i+1,6):
+        print(j,end=' ')
+    print()
+
+12
+
+i=0
+j=0
+for i in range(0,6):
+    for j in range(i+1,6):
+        print('*',end=' ')
+    print()
+
+11
+
+i=0
+j=0
+for i in range(0,5):
+    for j in range(0,i+1):
+        print('#',end=' ')
+    print()
+
+10
+
+i=0
+
+j=0
+for i in range(0,5):
+    for j in range(0,5):
+        print('#',end=' ')
+    print()
+
+9
+
+for a in range (1, 100):
+    count = 0
+    for i in range(2, (a//2 + 1)):
+        if(a % i == 0):
+            count = count + 1
+            break
+
+    if (count == 0 and a != 1):
+
+8
+
+i=1
+while i<=100:
+    if i%2 != 0:
+        print(i)
+    i=i+1
+
+7
+
+i=1
+while i<=100:
+    if i%2 == 0:
+       print(i)
+    i=i+1
+
+6
+
+a = int(input('enter the number'))
+i=0
+sum=0
+while i<=a:
+    sum=sum+i
+    i+=1
+print(sum)
+print('done')
+        print(" %d" %a, end = '  ')
+
+5
+
+i=1
+while i<=100:
+    if (i%4!=0) and (i%7!=0):
+     print(i)
+    i=i+1
+print('done')   
+
+4
+
+a=int(input('enter the number'))
+b=int(input('enter the number'))
+c=int(input('enter the number'))
+if (a>b) and (a>c):
+    print('the greates is'+str(a))
+if (b>a) and (b>c):
+    print('the greatest is'+str(b))
+if (c>b) and (c>a):
+    print('tghe greatet is'+str(c))
+print('done')
+
+3
+
+b=int(input('enter the number'))
+if b>0:
+    print('number is positive')
+if b==0:
+    print('number is zero')
+if b<0:
+    print('numbe is negative')
+
+2
+
+    a=int(input('enter the no'))
+if a>0:
+    print('number is positive')
+elif a==0:
+    print('number is zero')
+else:
+    print('is negative')
+print('done')
+
+1
+
+# Write your code here :-)
+a=int(input('enter tehe number'))
+if a%2==0:
+    print('number is even')
+else:
+    print('number is odd')
+print('done')
