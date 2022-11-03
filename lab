@@ -1,0 +1,44 @@
+b=input ('enter base')
+h=input ('enter height')
+a= 0.5 * float (b) * float (h)
+print('area of triangle is'+str (a))
+
+ 
+
+a= input('enter the first no')
+b= input('enter the second no')
+    
+c=int(a)+int(b)
+print(c)
+
+ 
+
+n= input('enter no')
+s= float(n) ** 0.5
+print (s)
+
+ 
+
+a=1
+b=2
+print("before swapping a=",a,"b=",b)
+temp=a
+a=b
+b=temp
+print("after swapping a=",a,"b=",b)
+
+ 
+
+a=input('enter km')
+b=0.62137 * float (a)
+print(b) 
+
+ 
+
+a=float(input('enter a'))
+b=float(input('enter b'))
+c=float(input('enter c'))
+q1=(-b+((b*b)-(4*a*c))**0.5)/(2*a)
+q2=(-b-((b*b)-(4*a*c))**0.5)/(2*a)
+print('root1',q1)
+print('root2',q2
